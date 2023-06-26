@@ -21,7 +21,7 @@ type BusStopWithAdjacentBusStops = {
   adjacentBusStops: AdjacentBusStop[];
 };
 
-interface ITjBusStopsGraphGraph {
+interface ITjBusStopsGraph {
   busStops: Record<string, BusStopWithAdjacentBusStops>;
   addBusStop: (busStop: BusStop) => void;
   addBusTrack: (
@@ -32,7 +32,7 @@ interface ITjBusStopsGraphGraph {
   getAdjacentBusStop: (target: string) => void;
 }
 
-class TjBusStopsGraph implements ITjBusStopsGraphGraph {
+class TjBusStopsGraph implements ITjBusStopsGraph {
   public busStops: Record<string, BusStopWithAdjacentBusStops>;
 
   constructor(busStops: Record<string, BusStopWithAdjacentBusStops> = {}) {
