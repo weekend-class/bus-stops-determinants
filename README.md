@@ -79,4 +79,4 @@ Petunjuk: pelajari data struktur graph dan algoritma djikstra
 - `findShortestPath("1-1", "1-2") // ["1-1", "1-2"]`
 - `findShortestPath("1-1", "1-6") // ["1-1", "1-3", "1-4", "1-5", "1-6"]`
 - `findShortestPath("1-2", "1-4") // ["1-2", "1-3", "1-4"]`
-- `findShortestPath("1-8", "1-2") // ["1-8", "1-7", "1-6", "1-5", "1-4", "1-2"]`
+- `findShortestPath("1-8", "1-1") // ["1-8", "1-7", "1-6", "1-5", "1-4", "1-3", "1-1"]`
