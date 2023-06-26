@@ -2,7 +2,7 @@
 
 ## Pendahuluan
 
-Diketahui jalur 1 Bus Transjakarta melewati beberapa halte, antara lain:
+Diketahui koridor 1 Bus Transjakarta melewati beberapa halte, antara lain:
 
 - 1-1: Blok M
 - 1-2: CSW-ASEAN
@@ -15,7 +15,7 @@ Diketahui jalur 1 Bus Transjakarta melewati beberapa halte, antara lain:
 - 1-9: Dukuh Atas
 - 1-10: Tosari
 
-Trayek jalur 1, antara 1-1: Blok M dan 1-10: Tosari, dapat direpresentasikan sebagai berikut:
+Trayek koridor 1, antara 1-1: Blok M dan 1-10: Tosari, dapat direpresentasikan sebagai berikut:
 
 ```
                   +--------+        Transit        +---+---------+
